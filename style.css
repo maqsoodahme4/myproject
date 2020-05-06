@@ -1,0 +1,308 @@
+.one{
+    display: flex;
+    color: white;
+    background-color: cornflowerblue;
+    height:40px;
+    font-size:xx-small;
+    padding: 10px;
+justify-content: space-evenly;
+    border-radius: 10px;
+    flex-basis: 27%;
+    align-items: center;
+}
+button{
+    border-radius: 7px;
+}
+
+ li{
+     padding: 1px;
+     margin: 5px; 
+    
+ }   
+    
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    }
+    
+    .k:hover{
+        display: flex;
+        background-color:royalblue;
+          
+    }
+    .k{
+        display: flex;
+        color: black;
+        text-decoration: none; 
+        border-radius: 7px; 
+        border: solid 1px white; 
+       }
+    .b{
+        display: flex;
+        width: 250px; 
+        justify-content:space-between;
+     
+    }
+    
+
+    
+    .y{
+        display: flex;
+        width: 100%;
+        
+    
+}
+    h1{
+      text-align: center;
+      color: cornflowerblue;
+    }
+    .pp{
+        display: flex;
+        background-color:royalblue;
+        height: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+    .e{
+        color: darkgreen;
+    }
+    .pic{
+display: flex;
+justify-content: space-around;
+}
+.la{
+    display: flex;
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+}
+.ab{
+    width: 40px;
+}
+.f{
+    display: flex;
+    justify-content:space-around ;
+    text-align: right;
+}
+.p{
+    display: flex;
+    justify-content: space-around;
+}
+.i{
+    display: flex;
+    justify-content: space-around;
+    text-align: right;
+    color: springgreen;
+    font-style: italic;
+}
+
+.color{
+  background-color: royalblue;
+  border: solid 1px royalblue;
+  
+  
+}
+.h2{
+    text-align: center;
+    color: cornflowerblue;
+    font-size: xx-large;
+}
+.h1{
+    color: darkgreen;
+}
+.ea{
+    display: flex;
+    justify-content: center;
+    color:green;
+}
+.a1{
+    display: flex;
+    justify-content: space-around;
+}
+.a2{
+    display: flex;
+    justify-content: space-around;
+}
+.a3{
+    display: flex;
+    justify-content: space-around;
+}
+.a4{
+    display: flex;
+    justify-content: space-around;
+}
+.c{
+    color:cornflowerblue;
+    text-align: start;
+    position: relative;
+    left: 50px;
+    font-size:large;
+    align-items: center;
+    width: 570px;
+}
+.b1{
+    display: flex;
+    position: relative;
+    right: 50px;
+    justify-content: space-evenly;
+    
+    
+}
+.b2{
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+.b3{
+    display: flex;
+    position: relative;
+    right: 40px;
+    justify-content: space-evenly;
+}
+.b4{
+    display: flex;
+    justify-content: space-evenly;
+
+    
+}
+
+.m{
+    display: flex;
+    text-align: end;
+    font-size: x-large;
+
+}
+.v{
+    text-align: center;
+    color: cornflowerblue;
+}
+.n{
+    color: darkgreen;
+}
+.z{
+    width: 190px;
+    
+}
+.paa{
+    
+    max-width:630px ;
+    min-width: 200px;
+    padding: 10px;
+    margin: 0px 190px;
+    text-align: justify;
+    
+
+}
+   
+
+.aaa{
+    display: flex;
+    color: cornflowerblue;
+    position: relative;
+    left: 200px;
+
+}
+.aaaa{
+    display: flex;
+    align-items: center;
+flex-direction: row;
+}
+.u{
+
+    background-color: darkslategray;
+    list-style: none;
+    text-align: left;
+    padding: 10px;
+
+}
+
+
+
+.r{
+    width: 35px;
+}
+
+.ass{
+    display: flex;
+    max-width: 220px;
+    min-width: 220px;
+    position:relative;
+    top: 130px;
+    color:lightcoral;
+    
+}
+
+ .es{
+     display: flex;
+     flex-direction: column;
+     margin: 0px 300px 0px 0px ;}
+     .q{
+         display: flex;
+         border: solid 50px white;
+     }
+.av{
+    display: flex;
+}
+
+
+#slider {
+	overflow: hidden;
+}
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 17s slider infinite;
+}
+#slider figure img {
+	float: left;
+	width: 20%;
+}
+
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+}
+
+.footer{display: flex; flex-direction: row;
+
+
+}
+.cnn{ 
+    
+    margin: 3px 30px;
+    
+    
+    
+    display: flex;  justify-content:flex-end ; align-items: center; text-align: center;}
+
